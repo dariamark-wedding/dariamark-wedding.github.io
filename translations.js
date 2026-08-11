@@ -39,7 +39,7 @@
     .querySelectorAll('.rsvp-button, .site-menu a[href*="docs.google.com/forms"]')
     .forEach((link) => {
       link.href =
-        "https://docs.google.com/forms/d/e/1FAIpQLSftayp0xA6nUyEkMLbOqSPjk2_yV1SPnaCFAgoDOGTMmQi5dg/viewform?usp=publish-editor";
+        "https://docs.google.com/forms/d/e/1FAIpQLScDD25luDTL2v5UcEm3KWO-olRRD31BUjw4NnZAyS4rndl6qw/viewform?usp=dialog";
     });
   setText(".hero > .scroll-cue span", "Наше приглашение");
 
@@ -84,8 +84,8 @@
       "Вы получили это приглашение, потому что Вы нам очень дороги. Для нас было бы большим счастьем, если бы Вы стали частью одного из самых важных дней в нашей жизни — начала нашей семейной истории.";
   }
   if (invitationParagraphs[2]) {
-    invitationParagraphs[2].textContent =
-      "Мы с радостью приглашаем Вас на нашу свадьбу, которая состоится 3 октября 2026 года в Continental Citygolf Club в Будапеште.";
+    invitationParagraphs[2].innerHTML =
+      'Мы с радостью приглашаем Вас на нашу свадьбу, которая состоится 3 октября 2026 года в <a class="place-link" href="https://www.google.com/maps/search/?api=1&amp;query=Continental+Citygolf+Club,+Per%C3%A9nyi+%C3%BAt+6,+1037+Budapest,+Hungary" target="_blank" rel="noopener noreferrer">Continental Citygolf Club</a> в Будапеште.';
   }
   if (invitationParagraphs[3]) {
     invitationParagraphs[3].textContent =
