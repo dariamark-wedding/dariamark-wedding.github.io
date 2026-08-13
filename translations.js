@@ -65,7 +65,7 @@
     ["Good to know", "Полезно знать"],
     ["Questions and contacts", "Вопросы и контакты"],
     ["Where to stay", "Где остановиться"],
-    ["Travelling to Budapest", "Как добраться до Будапешта"],
+    ["Traveling to Budapest", "Как добраться до Будапешта"],
     ["Our Budapest favourites", "Наши любимые места"],
   ];
 
